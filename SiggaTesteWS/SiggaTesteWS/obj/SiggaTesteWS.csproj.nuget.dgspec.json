@@ -55,7 +55,7 @@
             },
             "Prism.Unity.Forms": {
               "target": "Package",
-              "version": "[7.2.0.1367, )"
+              "version": "[7.2.0.1422, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

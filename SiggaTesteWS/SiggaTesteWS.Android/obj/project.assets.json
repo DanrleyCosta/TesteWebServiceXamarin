@@ -894,7 +894,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Prism.Unity.Forms": "7.2.0.1367",
+          "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.4.0.991640"
         },
         "compile": {
@@ -2252,6 +2252,16 @@
       "warningLevel": 1,
       "message": "Downgrade de pacote detectado: Xamarin.Android.Support.CustomTabs de 28.0.0.3 para 28.0.0.1. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n SiggaTesteWS.Android -> Xamarin.Forms 4.4.0.991640 -> Xamarin.Android.Support.CustomTabs (>= 28.0.0.3) \r\n SiggaTesteWS.Android -> Xamarin.Android.Support.CustomTabs (>= 28.0.0.1)",
       "libraryId": "Xamarin.Android.Support.CustomTabs",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Downgrade de pacote detectado: Prism.Unity.Forms de 7.2.0.1422 para 7.2.0.1367. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n SiggaTesteWS.Android -> SiggaTesteWS -> Prism.Unity.Forms (>= 7.2.0.1422) \r\n SiggaTesteWS.Android -> Prism.Unity.Forms (>= 7.2.0.1367)",
+      "libraryId": "Prism.Unity.Forms",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"
       ]
